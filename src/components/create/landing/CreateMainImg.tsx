@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import ImgRunnerNormal from '../../design-system/icons/imgRunnerNormal.svg'
+import ImgRunnerNormal from '../../../design-system/icons/imgRunnerNormal.svg'
 
 const CreateMainImg = () => {
 	return (
@@ -15,5 +15,5 @@ const Root = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 34px 69px;
+	margin: 53px 69px 34px 69px;
 `

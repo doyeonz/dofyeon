@@ -1,20 +1,23 @@
 import styled from 'styled-components'
-import color from '../../design-system/colors/color'
+import color from '../../../design-system/colors/color'
+import { useFlow } from '../../../stackflow'
 
-import Button from '../../design-system/components/Button'
-import NavigationBar from '../../design-system/components/NavigationBar'
-import CreateHeader from './CreateHeader'
+import Button from '../../../design-system/components/Button'
+import NavigationBar from '../../../design-system/components/NavigationBar'
+import Header from '../../../design-system/components/Header'
 import CreateMainImg from './CreateMainImg'
 import CreateMainText from './CreateMainText'
 
 const CreatePageComp = () => {
+	const { push } = useFlow()
+
 	const handleNext = () => {
-		console.log('다음 페이지로 이동')
+		push('CreateSetOpponentPage', {})
 	}
 
 	return (
 		<Root>
-			<CreateHeader />
+			<Header title="허슬 생성" />
 
 			<CreateMainImg />
 

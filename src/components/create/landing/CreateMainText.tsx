@@ -22,7 +22,7 @@ const Root = styled.div`
 
 	h2 {
 		font-size: 24px;
-		margin-bottom: 16px;
+		margin-bottom: 8px;
 	}
 
 	p {
