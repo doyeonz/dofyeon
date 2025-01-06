@@ -1,13 +1,14 @@
 import { ActivityComponentType } from '@stackflow/react'
 import { AppScreen } from '@stackflow/plugin-basic-ui'
-import CreatePageComp from '../../components/create/page'
 
-const CreatePage: ActivityComponentType = () => {
+const HustlePage: ActivityComponentType = () => {
 	return (
 		<AppScreen>
-			<CreatePageComp />
+			<div>
+				<h1>허슬페이지</h1>
+			</div>
 		</AppScreen>
 	)
 }
 
-export default CreatePage
+export default HustlePage
