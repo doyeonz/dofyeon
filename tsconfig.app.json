@@ -19,7 +19,12 @@
 		/* Linting */
 		"strict": true,
 		"noUnusedLocals": true,
-		"noUnusedParameters": true
+		"noUnusedParameters": true,
+
+		"baseUrl": "src",
+		"paths": {
+			"*": ["node_modules/*", "src/*"]
+		}
 	},
 	"include": ["src"]
 }
