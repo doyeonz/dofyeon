@@ -5,7 +5,7 @@ import { useFlow } from '../../../stackflow'
 
 import Button from '../../../design-system/components/Button'
 import NavigationBar from '../../../design-system/components/NavigationBar'
-import CreateHeader from '../../../design-system/components/Header'
+import Header from '../../../design-system/components/Header'
 import OpponentOption from './OpponentOption'
 
 const CreateSetOpponentPageComp = () => {
@@ -24,7 +24,7 @@ const CreateSetOpponentPageComp = () => {
 
 	return (
 		<Root>
-			<CreateHeader />
+			<Header title="허슬 생성" />
 
 			<OptionsContainer>
 				<OpponentOption
