@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styled from 'styled-components'
 import color from '../../../design-system/colors/color'
-import { useFlow } from '../../../stackflow'
+// import { useFlow } from '../../../stackflow'
 
 import Button from '../../../design-system/components/Button'
 import NavigationBar from '../../../design-system/components/NavigationBar'
@@ -9,13 +9,12 @@ import Header from '../../../design-system/components/Header'
 import OpponentOption from './OpponentOption'
 
 const CreateSetOpponentPageComp = () => {
-	const { push } = useFlow()
+	// const { push } = useFlow()
 	const [hoveredOption, setHoveredOption] = useState<number | null>(null)
 	const [selectedOption, setSelectedOption] = useState<number>(0)
 
 	const handleNext = () => {
-		// push('NextPage', {})
-		console.log('ex')
+		// push('CreateInfoPage', {})
 	}
 
 	const handleOptionSelect = (index: number) => {
