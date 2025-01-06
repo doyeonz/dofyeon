@@ -6,7 +6,7 @@ import OneToN from './OneToN'
 
 export function HomePageComp() {
 	return (
-		<AppContainer>
+		<Root>
 			<HeaderText>
 				회원님
 				<br />
@@ -16,13 +16,13 @@ export function HomePageComp() {
 			<OneToOne />
 			<OneToN />
 			<NavigationBar />
-		</AppContainer>
+		</Root>
 	)
 }
 
 export default HomePageComp
 
-const AppContainer = styled.div`
+const Root = styled.div`
 	background-color: #1a1a1a;
 	min-height: 100vh;
 	color: white;
