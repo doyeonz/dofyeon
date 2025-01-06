@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import type { NavItemType } from '../../types/design'
+import type { NavItemType } from '../../types/global.d.ts'
 import color from '../colors/color'
 
 import btnHomeNormal from '../icons/btnHomeNormal.svg'
