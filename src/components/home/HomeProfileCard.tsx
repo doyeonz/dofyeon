@@ -4,7 +4,7 @@ import IcRankDiamonds from '../../design-system/icons/profileRank/icRankDiamonds
 import btnShareNormal from '../../design-system/icons/btnShareNormal.svg'
 import color from '../../design-system/colors/color'
 
-const ProfileCard = () => {
+const HomeProfileCard = () => {
 	return (
 		<Root>
 			<ProfileInfo>
@@ -29,7 +29,7 @@ const ProfileCard = () => {
 	)
 }
 
-export default ProfileCard
+export default HomeProfileCard
 
 const Root = styled.div`
 	background-color: ${color.gray90};

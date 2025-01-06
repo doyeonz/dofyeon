@@ -1,8 +1,10 @@
 import styled from 'styled-components'
+import color from '../../design-system/colors/color'
+
 import NavigationBar from '../../design-system/components/NavigationBar'
-import ProfileCard from './ProfileCard'
-import OneToOne from './OneToOne'
-import OneToN from './OneToN'
+import HomeProfileCard from './HomeProfileCard'
+import HomeOneToOne from './HomeOneToOne'
+import HomeOneToN from './HomeOneToN'
 
 export function HomePageComp() {
 	return (
@@ -12,9 +14,9 @@ export function HomePageComp() {
 				<br />
 				오늘도 열심히 허슬하세요
 			</HeaderText>
-			<ProfileCard />
-			<OneToOne />
-			<OneToN />
+			<HomeProfileCard />
+			<HomeOneToOne />
+			<HomeOneToN />
 			<NavigationBar />
 		</Root>
 	)
@@ -23,7 +25,7 @@ export function HomePageComp() {
 export default HomePageComp
 
 const Root = styled.div`
-	background-color: #1a1a1a;
+	background-color: ${color.gray100};
 	min-height: 100vh;
 	color: white;
 	padding: 75px 14px;

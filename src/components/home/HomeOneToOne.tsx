@@ -4,7 +4,7 @@ import color from '../../design-system/colors/color'
 import IcPersonNormal from '../../design-system/icons/icPersonNormal.svg'
 import BtnArrowRight from '../../design-system/icons/btnArrowRight.svg'
 
-const OneToOne = () => {
+const HomeOneToOne = () => {
 	return (
 		<Root>
 			<OnToOneImage src={IcPersonNormal} />
@@ -17,7 +17,7 @@ const OneToOne = () => {
 	)
 }
 
-export default OneToOne
+export default HomeOneToOne
 
 const Root = styled.div`
 	background-color: ${color.gray90};
