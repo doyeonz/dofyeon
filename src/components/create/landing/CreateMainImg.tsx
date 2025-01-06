@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import ImgRunnerNormal from '../../../design-system/icons/imgRunnerNormal.svg'
+import ImgRunnerNormal from '../../../assets/images/imgRunnerNormal.svg'
 
 const CreateMainImg = () => {
 	return (
