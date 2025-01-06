@@ -23,7 +23,6 @@ const StyledBtn = styled.button`
 	font-size: 16px;
 	font-weight: 700;
 	cursor: pointer;
-	margin-bottom: 70px;
 
 	&:hover {
 		opacity: 0.9;

@@ -5,9 +5,10 @@ import { historySyncPlugin } from '@stackflow/plugin-history-sync'
 import { basicUIPlugin } from '@stackflow/plugin-basic-ui'
 
 import HomePage from './pages/home/page'
-import CreatePage from './pages/create/page'
+import CreatePage from './pages/create/landing/page'
 import HustlePage from './pages/hustle/page'
 import MorePage from './pages/more/page'
+import CreateSetOpponentPage from './pages/create/setOpponent/page'
 
 export const { Stack, useFlow } = stackflow({
 	transitionDuration: 350,
@@ -16,6 +17,7 @@ export const { Stack, useFlow } = stackflow({
 		CreatePage,
 		HustlePage,
 		MorePage,
+		CreateSetOpponentPage,
 	},
 	plugins: [
 		basicRendererPlugin(),
@@ -26,6 +28,7 @@ export const { Stack, useFlow } = stackflow({
 			routes: {
 				HomePage: '/',
 				CreatePage: '/create',
+				CreateSetOpponentPage: '/create',
 				HustlePage: '/hustle',
 				MorePage: '/more',
 				NotFound: '*',
