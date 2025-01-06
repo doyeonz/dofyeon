@@ -12,6 +12,7 @@
 	"dependencies": {
 		"@stackflow/core": "^1.1.0",
 		"@stackflow/plugin-basic-ui": "^1.11.1",
+		"@stackflow/plugin-history-sync": "^1.7.0",
 		"@stackflow/plugin-renderer-basic": "^1.1.13",
 		"@stackflow/react": "^1.4.1",
 		"react": "^18.3.1",
