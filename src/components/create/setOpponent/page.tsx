@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import color from '../../../design-system/colors/color'
 // import { useFlow } from '../../../stackflow'
 
-import Button from '../../../design-system/components/Button/ButtonDefault'
+import ButtonDefault from '../../../design-system/components/Button/ButtonDefault'
 import NavigationBar from '../../../design-system/components/NavigationBar'
 import Header from '../../../design-system/components/Header'
 import OpponentOption from './OpponentOption'
@@ -43,7 +43,7 @@ const CreateSetOpponentPageComp = () => {
 					onSelect={() => handleOptionSelect(1)}
 				/>
 			</OptionsContainer>
-			<Button onClick={handleNext}>다음으로</Button>
+			<ButtonDefault onClick={handleNext}>다음으로</ButtonDefault>
 			<NavigationBar />
 		</Root>
 	)
