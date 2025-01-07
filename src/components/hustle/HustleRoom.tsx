@@ -43,7 +43,7 @@ export default HustleRoom
 const Root = styled.div`
 	width: 100%;
 	background-color: ${color.gray80};
-	border-radius: 16px;
+	border-radius: 12px;
 	padding: 20px;
 	cursor: pointer;
 	transition: background-color 0.2s ease-in-out;
@@ -75,7 +75,7 @@ const ParticipantsWrapper = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 8px;
-	margin-top: 4px;
+	margin-top: 24px;
 `
 
 const AvatarGroup = styled.div`
