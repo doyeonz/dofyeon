@@ -1,12 +1,12 @@
 import { ActivityComponentType } from '@stackflow/react'
 import { AppScreen } from '@stackflow/plugin-basic-ui'
 
+import HustleRoomListPageComp from '../../components/hustle/page'
+
 const HustlePage: ActivityComponentType = () => {
 	return (
 		<AppScreen>
-			<div>
-				<h1>허슬페이지</h1>
-			</div>
+			<HustleRoomListPageComp />
 		</AppScreen>
 	)
 }

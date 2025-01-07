@@ -9,6 +9,7 @@ import CreatePage from './pages/create/landing/page'
 import HustlePage from './pages/hustle/page'
 import MorePage from './pages/more/page'
 import CreateSetOpponentPage from './pages/create/setOpponent/page'
+import AppOnlyPage from './pages/error/page'
 
 export const { Stack, useFlow } = stackflow({
 	transitionDuration: 350,
@@ -18,6 +19,7 @@ export const { Stack, useFlow } = stackflow({
 		HustlePage,
 		MorePage,
 		CreateSetOpponentPage,
+		AppOnlyPage,
 	},
 	plugins: [
 		basicRendererPlugin(),
@@ -31,6 +33,7 @@ export const { Stack, useFlow } = stackflow({
 				CreateSetOpponentPage: '/create',
 				HustlePage: '/hustle',
 				MorePage: '/more',
+				AppOnlyPage: '/break',
 				NotFound: '*',
 			},
 			fallbackActivity: () => 'NotFound',
