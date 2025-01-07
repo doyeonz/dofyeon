@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import color from '../../../design-system/colors/color'
 import { useFlow } from '../../../stackflow'
 
-import Button from '../../../design-system/components/Button'
+import Button from '../../../design-system/components/Button/ButtonDefault'
 import NavigationBar from '../../../design-system/components/NavigationBar'
 import Header from '../../../design-system/components/Header'
 import CreateMainImg from './CreateMainImg'
