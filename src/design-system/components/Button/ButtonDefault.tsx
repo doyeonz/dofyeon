@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import color from '../colors/color'
+import color from '../../colors/color'
 
 interface ButtonProps {
 	onClick: () => void
